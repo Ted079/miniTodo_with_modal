@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM API</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <h1>DOM API</h1>
+
+        <button class="showInputArea">Add Task</button>
+        <div class="modal">
+          <div class="modal-content">
+            <div class="input-area">
+              <span class="close">&times;</span>
+              <input type="text" placeholder="todos" />
+              <button class="addTask">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="ul-area">
+          <ul id="todos"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
