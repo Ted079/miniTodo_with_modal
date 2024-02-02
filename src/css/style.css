@@ -1,20 +1,20 @@
 .container {
-    max-width: 1100px;
-    margin: 0px auto;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .wrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 500px;
-    gap: 15px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  }
+  max-width: 1100px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+}
 
-  /* The Modal (background) */
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  gap: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -24,8 +24,8 @@
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 .open {
@@ -40,13 +40,11 @@
   border: 2px solid white;
   border-radius: 5px;
   max-width: 700px; /* Could be more or less, depending on screen size */
-  
 }
 
 .modal-content:hover {
   /* transform: scale(1.01); */
-  box-shadow: 0px 0px 18px 0px #E8C872
-
+  box-shadow: 0px 0px 18px 0px #e8c872;
 }
 
 /* The Close Button */
@@ -63,79 +61,86 @@
   text-decoration: none;
   cursor: pointer;
 }
-  
-  input,
-  button,
-  .ul-area {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    width: 200px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.255);
-    outline: none;
-  }
-  
-  input {
-    width: 75%;
-    border: none;
-  }
 
-  button {
-    background-color: #FFF3CF ;
-  }
+input,
+button,
+.ul-area {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.255);
+  outline: none;
+}
 
-  button:hover {
-    box-shadow: 0px 0px 18px 0px #FFF3CF;
-    background-color: #f7df98;
-  }
-  
-  .input-area.show {
-    display: block;
-  }
-  
-  li {
-    text-decoration: underline;
-    position: relative;
-    line-height: 1.8;
-    color: #000000b3;
-    cursor: pointer;
-    /* display: flex; */
-    
-  }
-  
-  li:hover {
-    text-decoration: none;
-  }
+input {
+  width: 75%;
+  border: none;
+}
 
-  .delete_span{
-    position: absolute;
-    padding: 1px;
-    border: 1px solid red;
+button {
+  background-color: #fff3cf;
+}
 
-    right: 0;
-    /* top: 3px; */
-    /* width: 40px;
+.modalBtn {
+  background-color: #fe3737;
+  color: #ecf9ff;
+  width:  368px;
+}
+
+.modalBtn:hover {
+  background-color: #f30000;
+  /* box-shadow: 0px 0px 18px 0px #ff6464; */
+}
+
+button:hover {
+  /* box-shadow: 0px 0px 18px 0px #fff3cf; */
+  background-color: #f7df98;
+}
+
+.input-area.show {
+  display: block;
+}
+
+li {
+  text-decoration: underline;
+  position: relative;
+  line-height: 1.8;
+  color: #000000b3;
+  cursor: pointer;
+  /* display: flex; */
+}
+
+li:hover {
+  text-decoration: none;
+}
+
+.delete_span {
+  position: absolute;
+  padding: 1px;
+  border: 1px solid red;
+
+  right: 0;
+  /* top: 3px; */
+  /* width: 40px;
     height: 40px; */
-    font-size: 16px;
-    color: #fc2a00;
+  font-size: 16px;
+  color: #fc2a00;
 
-    /* text-decoration: none; */
-    padding-left: 10px;
-  }
-  
-  button {
-    width: 100px;
-    padding: 5px;
-    color: rgba(0, 0, 0, 0.642);
-    border: none;
-  }
-  
-  .ul-area {
-    width: 350px;
-    border: 1px solid rgba(0, 0, 0, 0.12);
-    background-color: #fef6d5;
-    /* padding: 15px; */
-  }
-  
-  
-  
+  /* text-decoration: none; */
+  padding-left: 10px;
+}
+
+button {
+  width: 100px;
+  padding: 5px;
+  color: rgba(0, 0, 0, 0.642);
+  border: none;
+}
+
+.ul-area {
+  width: 350px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: #fef6d5;
+  /* padding: 15px; */
+}

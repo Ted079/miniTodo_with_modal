@@ -60,6 +60,7 @@ function addItemWithHandleEnter(event) {
   if (event.key === "Enter") {
     addTask();
   }
+  closeModal();
   console.log(event);
 }
 
